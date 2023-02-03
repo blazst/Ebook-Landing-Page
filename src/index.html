@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0c743cbba4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <nav
+      class="hidden sm:flex sm:w-screen sm:h-8 sm:fixed sm:top-0 sm:left-0 sm:right-0 bg-violet-900 text-white text-xs sm:text-base"
+    >
+      <ul class="flex sm:space-x-5 m-auto ml-10">
+        <li><a href="#heading-section">Dlaczego akurat ta książka?</a></li>
+        <li><a href="#author-bio-section">O autorze słów kilka</a></li>
+        <li><a href="#purchase">Kupuję e-booka</a></li>
+      </ul>
+    </nav>
+    <main
+      id="container"
+      class="text-white text-m font-medium tracking-wide font-mono"
+    >
+      <section
+        id="heading-section"
+        class="w-screen h-screen text-center bg-gradient-to-r from-indigo-500 to-sky-600 flex justify-center items-center p-10"
+      >
+        <div class="h-3/4 w-3/4 flex flex-col justify-start items-center">
+          <!-- flex flex-col-reverse flex-wrap justify-center content-center  -->
+          <div
+            id="img_div"
+            class="w-4/12 h-4/12 flex items-start shrink-0 -mt-28"
+          >
+            <img
+              class="w-11/12 h-11/12"
+              src="../images/3d-python.webp"
+              alt="python logo"
+            />
+          </div>
+          <div class="w-12/12 h-5/6">
+            <div class="text-4xl font-bold my-8 w-80">
+              Junior Python Developer
+            </div>
+            <p class="text-lg text-left">
+              Bycie
+              <span class="italic font-bold">PROGRAMISTĄ 40K JEST MOŻLIWE</span
+              >, tu znajdziesz pierwsze kroki i historię jak ja tego dokonałem w
+              5 lat. Ta książka to nietypowy podręcznik dla osób chcących
+              zgłębić tajniki Pythona i tego, jak zdobyć pierwszą pracę w IT
+              jako junior, samouk. To 256 stron wypełnionych wiedzą i
+              doświadczeniem.
+            </p>
+            <p class="text-3xl my-8">
+              Spełnij swoje plany, to tylko
+              <span class="text-yellow-300 font-bold">64 zł</span>
+            </p>
+            <button
+              type="button"
+              class="block focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-purple-300 rounded-lg text-base dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 m-auto w-64 h-18 p-2 font-bold font-mono"
+            >
+              Tak chcę wkroczyć na drogę #programista40k i kupuję ebooka
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-screen h-screen bg-gradient-to-r from-sky-500 to-indigo-500 p-10"
+      >
+        <span id="author" class="text-4xl text-left font-bold my-8"
+          >Autor - Olaf "grski" Górski</span
+        >
+        <div
+          id="author-bio-div"
+          class="text-lg indent-8 flex flex-col justify-center items-center my-12"
+        >
+          <p class="">
+            Jestem osobą z ponad 5. letnim doświadczeniem w pracy jako
+            programista, osobą, która prowadziła swój własny Software House,
+            której nieobce jest dzielenie się wiedzą. Od 6. lat prowadzę bloga -
+            <a href="https://grski.pl" target="_blank">grski.pl</a>, mentoruję
+            ludzi pomagając wielu osobom znaleźć ich pierwszą pracę w IT i
+            rozwinąć skrzydła.
+          </p>
+          <div id="img-div" class="w-9/12 h-9/12 m-auto mt-12">
+            <img
+              src="../images/Olafek.png"
+              alt="author-photo"
+              class="rounded-full"
+            />
+            <div id="socials-footer" class="m-auto mt-6">
+              <a href="https://grski.pl" target="_blank" class="font-bold"
+                >Blog</a
+              ><a href="https://www.linkedin.com/in/olafgorski/" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/grski" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="purchase-form"
+        class="w-screen h-fit bg-gradient-to-r from-indigo-500 to-sky-500 p-10"
+      >
+        <div id="purchase-div" class="indent-8 leading-loose">
+          <div id="author" class="text-4xl text-center font-bold mb-8 indent-0">
+            Dzięki tej książce...
+          </div>
+          <ul id="main-list" class="pt-8">
+            <li>
+              Dogłębnie poznasz
+              <span class="font-bold italic"
+                >podstawy programowania w Pythonie</span
+              >
+            </li>
+            <li>
+              Postawisz swoje pierwsze kroki na drodze do
+              <span class="font-bold"
+                >WCALE-NIE-MITYCZNEGO #programista40k</span
+              >
+            </li>
+            <li class="font-bold">
+              Dowiesz się jak wygląda praca w prawdziwym świecie IT
+            </li>
+            <li>
+              Poznasz
+              <span class="font-bold">narzędzia tam wykorzystywane</span>
+            </li>
+            <li>
+              Dowiesz się nieco o
+              <span class="font-bold">procesach rekrutacyjnych</span> i
+              umiejętnościach miękkich z perspektywy
+              <span class="font-bold">osoby prowadzącej rekrutacje</span>
+            </li>
+          </ul>
+          <p>
+            To idealna książka dla początkujących, którzy chcą zdobyć
+            <span class="font-bold"
+              >mocne podstawy programowania w języku Python</span
+            >
+            i zbudować
+            <span class="font-bold">solidne fundamenty swojej kariery.</span>
+          </p>
+          <p class="py-6">
+            To niezbędna pozycja dla każdego, kto chce rozpocząć swoją przygodę
+            z programowaniem na poważnie i zdobyć cenne umiejętności, które
+            pozwolą mu na rozwijanie swoich projektów oraz zdobycie atrakcyjnej
+            pracy jako
+            <span class="font-bold">Junior Python Developer.</span> Jest to
+            pozycja nietypowa, bo pokrywająca obszary często pomijane w innych
+            pozycjach, napisana w praktycznym stylu.
+          </p>
+          <div class="">
+            <p class="indent-0 text-center">Pytania? Wątpliwości?</p>
+            <p class="indent-0 text-center font-bold italic">
+              olaf@juniorpythondeveloper.pl
+            </p>
+          </div>
+          <button
+            type="button"
+            class="block focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-purple-300 rounded-lg text-base dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 m-auto w-64 h-18 p-2 font-bold font-mono my-10"
+          >
+            Przekonałeś mnie i kupuję e-booka!
+          </button>
+        </div>
+        <p class="indent-0 italic">
+          Po zakupie otrzymasz ebooka w formacie PDF na wskazanego mejla. Wersja
+          papierowa ukaże się w około końca
+          <span class="font-bold">Q2 2023</span>, dla osób kupujących e-booka,
+          przewidziana będzie zniżka na wersję papierową.
+        </p>
+      </section>
+    </main>
+    <footer class="w-screen flex text-sm p-1">
+      <div id="onion-footer" class="w-3/4 inline-block">
+        ©Copyright Onionmindset 2023
+      </div>
+      <div id="socials-footer" class="w-1/4 flex justify-end -ml-4">
+        <a href="https://grski.pl" target="_blank" class="px-1">Blog</a
+        ><a
+          href="https://www.linkedin.com/in/olafgorski/"
+          target="_blank"
+          class="px-1"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://github.com/grski" target="_blank" class="px-1"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
